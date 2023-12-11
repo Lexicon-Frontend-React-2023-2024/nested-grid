@@ -1,3 +1,4 @@
+
 body {
     margin: 40px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -34,6 +35,7 @@ body {
 .c {
     grid-column: col / span 2;
     grid-row: row 2;
+    position: relative;
 }
 
 
@@ -60,4 +62,11 @@ body {
 .g {
     grid-column: 2;
     grid-row: 2;
+}
+
+.top-right {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    max-width: 15%;
 }
